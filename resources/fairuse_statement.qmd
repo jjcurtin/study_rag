@@ -1,0 +1,8 @@
+---
+title: "Fair Use Statement"
+format: html
+---
+
+## Fair Use Statement - Long Form 
+
+The United States Copyright Office described in its May 2025 report, Generative AI Training, guidelines regarding applying Fair Use in “retrieval-augmented generation” (RAG). Under these guidelines, we outline how our use of publicly available or legally purchased materials may weigh in favour of applying Fair Use. First, the purpose of our use is noncommercial in nature, restricted to a closed research system. We will not publicly reproduce or redistribute the entirety of the copyrighted materials to new audiences, nor will we release our RAG system to the public. In addition, our research centres on evaluating the feasibility and acceptability of generated therapeutic activities in research audiences only. We do not intend on providing greater access to our generated activities, nor in commercializing these activities, in a way that would constitute disturbing the original market for copyrighted source materials. Our work focuses on evaluating the analytical process, which does not communicate the underlying original expression of copyright materials to new audiences. 

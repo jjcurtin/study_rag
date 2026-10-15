@@ -1,0 +1,95 @@
+# Proposed Measures
+
+## Basic
+
+- Demographic \*check in with John/Susan I thought I had access to see the opt measures.
+- Alcohol Use History
+
+## Activity Assessment
+
+::: callout-note
+Based on last discussion, we're planning on selecting items from published scales to create our own overall measure.
+:::
+
+#### Acceptability of Intervention Measure (AIM)
+
+#### Intervention Appropriateness Measure (IAM)
+
+#### Feasibility of Intervention Measure (FIM)
+
+[Measure Link](https://dissemination-implementation.org/assessment-instrument/acceptability-of-intervention-measure-aim)
+
+CFA was assessed for each individual scale in study 2 of scale development, with lowest factor loading item dropped to trim the scale (to present 4 item scales). Cronbach's alpha for trimmed scales: acceptability = .85, appropriateness = .91, and feasibility = .89. \[Note: item wordings are very similar, so expected high alpha\].
+
+Overall scale was fitted for a CFA, and a 3-factor model emerged as best fit compared with 1 and 2 factor models (acceptable fit, CFI = .96, RMSEA = .08, BIC = 8499.4). Several factors *are* highly correlated, with acceptabilty and appropriateness at .77 and appropriateness and feasibility at .
+
+Study 3 reveals acceptable test-retest reliability: acceptability = .83, appropriateness = .87, and feasibility = .88. Median time between responses was 7 weeks.
+
+##### Full Scale Items
+
+AIM
+
+* (INTERVENTION) meets my approval
+* (INTERVENTION) is appealing to me.
+* I like (INTERVENTION).
+* I welcome (INTERVENTION).
+
+IAM 
+
+* (INTERVENTION) seems fitting. 
+* (INTERVENTION) seems suitable. 
+* (INTERVENTION) seems applicable. 
+* (INTERVENTION) seems like a good match.
+
+FIM
+
+* (INTERVENTION) seems implementable.
+* (INTERVENTION) seems possible. 
+* (INTERVENTION) seems doable.
+* (INTERVENTION) seems easy to use. 
+
+##### Item Selection
+
+* I approve of (INTERVENTION) #changed wording from original first AIM item
+* (INTERVENTION) is appealing to me.
+* (INTERVENTION) seems suitable. 
+* (INTERVENTION) seems applicable. 
+* (INTERVENTION) seems possible. 
+* (INTERVENTION) seems doable.
+
+#### Credibility/Expectancy Questionnaire
+
+2-factor model emerged from factor analysis - focused on the factor that I'm interested in pulling items out here. 
+3 items, loading range from .71 (How succesffully do you think this treatment will be in reducing your symptoms) to .88 (How confident would you be in recommending this treatment to a friend). .84 for the other item (how logical does the therapy offered to you seem). Factor was labelled credibility. Cronbach's alpha = .81 (total scale = .84). Acceptable test-retest: credibility r(67) = .75, p < .001, but was assessed only 1 week apart. 
+
+##### Credibility Scale Items
+
+* How logical does the therapy offered to you seem
+* How successfully do you think this treatment will be in reducing your symptoms
+* How confident would you be in recommending this treatment to a friend
+
+## Other Assessments
+
+#### General Artificial Intelligence Attitude (GAIA-15)
+
+[Measure Link](https://www.sciencedirect.com/science/article/pii/S2451958826001703?via%3Dihub#tbl3)
+
+Moderate positive correlation with general AI use and specific AI use. Moderate marginal reliability, and unidimensional structure supported. 
+
+##### Full Scale Items
+
+* I am impressed by what AI can do. 
+* I am interested in using AI in my daily life. 
+* AI is exciting. 
+* I shiver with discomfort with I think about the future uses of AI (R)
+* When I think about AI, I have mostly positive feelings. 
+* I would invest my money in a bank that is exclusively managed by AI. 
+* I would buy an artwork painted by AI at an auction. 
+* To decide how to prioritize aid during humanitarian crises, I would seek advice from an AI. 
+* I would ride in an autonomously driving car. 
+* I would let an AI treat me instead of a human doctor in a GP practice. 
+* There are many beneficial applications of AI. 
+* AI can have positive impacts on people’s wellbeing. 
+* I believe that AI will improve my life. 
+* AI has more disadvantages than advantages. R 
+* AI will cause many job losses. R 
