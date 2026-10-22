@@ -50,3 +50,5 @@ po/*~
 rsconnect/
 .Rproj.user
 rag_test/rag_test.Rproj
+rag_test/manual.duckdb
+rag_test/manual.duckdb.wal
