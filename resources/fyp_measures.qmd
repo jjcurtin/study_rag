@@ -2,8 +2,48 @@
 
 ## Basic
 
-- Demographic \*check in with John/Susan I thought I had access to see the opt measures.
-- Alcohol Use History
+- Demographic
+  - Self-reported sex assigned at birth
+  - Gender identity
+  - Race
+  - Ethnicity
+  - Income
+  - Education Level
+- Lifetime substance use 
+  - World Health Organization's Alcohol, Smoking, and Substance INvovlement Screening Test 
+- Also consider DSM Checklist
+- Basic Mental Health Assessment ??
+  - PHQ9
+  - GAD7
+- Alcohol Use History ??
+  - Age first use 
+  - Years regular use
+  - # quit attempts
+  - previous treatment received
+
+## Assessment of Personalizable Traits
+::: callout-note
+Selected Categories: Craving, Motivation, Emotion
+:::
+
+### Craving
+- We could reword the Penn Alcohol Craving Scale, with timeline restricted to the last week (or even last two weeks).
+
+- How often have you thought about drinking or about how good a drink would make you feel during this period?
+- At its most severe point, how strong was your craving during this period?
+- How much time have you spent thinking about drinking or about how good a drink would make you feel during this period?
+- How difficult would it have been to resist taking a drinking during this period of time if you had known a bottle were in your house?
+- Keeping in mind your responses to the previous questions, please rate your overall average alcohol craving for the stated period of time.
+
+### Motivation
+There is the 19 item [The Stages of Change Readiness and Treatment Eagerness Scale](https://www.drugsandalcohol.ie/26826/1/socratesv8.pdf) fount in SAMHSA Tip 35
+
+They also have the readiness to change questionnaire which is shorter 12 items [link](https://www.ncbi.nlm.nih.gov/books/NBK571063/bin/A2_p160.pdf)
+
+
+### Emotion
+- DERS 16? 
+
 
 ## Activity Assessment
 
@@ -29,44 +69,47 @@ Study 3 reveals acceptable test-retest reliability: acceptability = .83, appropr
 
 AIM
 
-* (INTERVENTION) meets my approval
-* (INTERVENTION) is appealing to me.
-* I like (INTERVENTION).
-* I welcome (INTERVENTION).
+- (INTERVENTION) meets my approval
+- (INTERVENTION) is appealing to me.
+- I like (INTERVENTION).
+- I welcome (INTERVENTION).
 
-IAM 
+IAM
 
-* (INTERVENTION) seems fitting. 
-* (INTERVENTION) seems suitable. 
-* (INTERVENTION) seems applicable. 
-* (INTERVENTION) seems like a good match.
+- (INTERVENTION) seems fitting.
+- (INTERVENTION) seems suitable.
+- (INTERVENTION) seems applicable.
+- (INTERVENTION) seems like a good match.
 
 FIM
 
-* (INTERVENTION) seems implementable.
-* (INTERVENTION) seems possible. 
-* (INTERVENTION) seems doable.
-* (INTERVENTION) seems easy to use. 
+- (INTERVENTION) seems implementable.
+- (INTERVENTION) seems possible.
+- (INTERVENTION) seems doable.
+- (INTERVENTION) seems easy to use.
 
 ##### Item Selection
 
-* I approve of (INTERVENTION) #changed wording from original first AIM item
-* (INTERVENTION) is appealing to me.
-* (INTERVENTION) seems suitable. 
-* (INTERVENTION) seems applicable. 
-* (INTERVENTION) seems possible. 
-* (INTERVENTION) seems doable.
+- I approve of (INTERVENTION) #changed wording from original first AIM item
+- (INTERVENTION) is appealing to me.
+- (INTERVENTION) seems suitable.
+- (INTERVENTION) seems applicable.
+- (INTERVENTION) seems possible.
+- (INTERVENTION) seems doable.
 
 #### Credibility/Expectancy Questionnaire
 
-2-factor model emerged from factor analysis - focused on the factor that I'm interested in pulling items out here. 
-3 items, loading range from .71 (How succesffully do you think this treatment will be in reducing your symptoms) to .88 (How confident would you be in recommending this treatment to a friend). .84 for the other item (how logical does the therapy offered to you seem). Factor was labelled credibility. Cronbach's alpha = .81 (total scale = .84). Acceptable test-retest: credibility r(67) = .75, p < .001, but was assessed only 1 week apart. 
+2-factor model emerged from factor analysis - focused on the factor that I'm interested in pulling items out here. 3 items, loading range from .71 (How succesffully do you think this treatment will be in reducing your symptoms) to .88 (How confident would you be in recommending this treatment to a friend). .84 for the other item (how logical does the therapy offered to you seem). Factor was labelled credibility. Cronbach's alpha = .81 (total scale = .84). Acceptable test-retest: credibility r(67) = .75, p \< .001, but was assessed only 1 week apart.
 
 ##### Credibility Scale Items
 
-* How logical does the therapy offered to you seem
-* How successfully do you think this treatment will be in reducing your symptoms
-* How confident would you be in recommending this treatment to a friend
+- How logical does the therapy offered to you seem
+- How successfully do you think this treatment will be in reducing your symptoms
+- How confident would you be in recommending this treatment to a friend
+
+##### Item Selection
+- I think this intervention will successfully reduce my symptoms.
+- I will recommend this treatment to a friend. 
 
 ## Other Assessments
 
@@ -74,22 +117,57 @@ FIM
 
 [Measure Link](https://www.sciencedirect.com/science/article/pii/S2451958826001703?via%3Dihub#tbl3)
 
-Moderate positive correlation with general AI use and specific AI use. Moderate marginal reliability, and unidimensional structure supported. 
+Moderate positive correlation with general AI use and specific AI use. Moderate marginal reliability, and unidimensional structure supported.
 
 ##### Full Scale Items
 
-* I am impressed by what AI can do. 
-* I am interested in using AI in my daily life. 
-* AI is exciting. 
-* I shiver with discomfort with I think about the future uses of AI (R)
-* When I think about AI, I have mostly positive feelings. 
-* I would invest my money in a bank that is exclusively managed by AI. 
-* I would buy an artwork painted by AI at an auction. 
-* To decide how to prioritize aid during humanitarian crises, I would seek advice from an AI. 
-* I would ride in an autonomously driving car. 
-* I would let an AI treat me instead of a human doctor in a GP practice. 
-* There are many beneficial applications of AI. 
-* AI can have positive impacts on people’s wellbeing. 
-* I believe that AI will improve my life. 
-* AI has more disadvantages than advantages. R 
-* AI will cause many job losses. R 
+- I am impressed by what AI can do.
+- I am interested in using AI in my daily life.
+- AI is exciting.
+- I shiver with discomfort with I think about the future uses of AI (R)
+- When I think about AI, I have mostly positive feelings.
+- I would invest my money in a bank that is exclusively managed by AI.
+- I would buy an artwork painted by AI at an auction.
+- To decide how to prioritize aid during humanitarian crises, I would seek advice from an AI.
+- I would ride in an autonomously driving car.
+- I would let an AI treat me instead of a human doctor in a GP practice.
+- There are many beneficial applications of AI.
+- AI can have positive impacts on people’s wellbeing.
+- I believe that AI will improve my life.
+- AI has more disadvantages than advantages. R
+- AI will cause many job losses. R
+
+
+#### Trust Measure from Optimized - Propensity to Trust Questionnaire
+1(strongly disagree) to 7(strongly agree)
+
+##### Full Scale Items
+1. I usually trust automated systems until there is a reason not to
+3. For the most part, I distrust automated systems 
+4. I already know automated systems that are similar to the STAR system
+5. In general, I would rely on an automated systems to assist me
+6. My tendency to trust automated systems is high
+7. Automated systems generally work well
+8. It is easy for me to trust automated systems to do their job
+9. One should be careful with unfamiliar automated systems
+10. I am likely to trust an automated system even when I have little knowledge about it
+13. I rather trust an automated system than mistrust it
+
+2. The developers of the STAR system are trustworthy
+11. The developers of the STAR system take my well-being seriously
+12. I have already used automated systems that are similar to the STAR system
+
+##### Item Selection
+
+Drop the last three STAR specific items? 
+
+1. I usually trust automated systems until there is a reason not to
+3. For the most part, I distrust automated systems 
+4. I already know automated systems that are similar to the STAR system
+5. In general, I would rely on an automated systems to assist me
+6. My tendency to trust automated systems is high
+7. Automated systems generally work well
+8. It is easy for me to trust automated systems to do their job
+9. One should be careful with unfamiliar automated systems
+10. I am likely to trust an automated system even when I have little knowledge about it
+13. I rather trust an automated system than mistrust it
