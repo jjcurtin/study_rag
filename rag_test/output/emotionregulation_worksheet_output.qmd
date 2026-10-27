@@ -1,0 +1,48 @@
+---
+title: "Test: Emotion Regulation Worksheet Output"
+format: html
+---
+
+Prompt:Create a one-page worksheet-style recovery activity for someone trying to manage intense emotions without using substances. The activity should include 4 to 6 brief fill-in prompts. Responses should be short enough to complete directly on a handout.
+
+# Feelings Are Signals, Not Commands
+
+**Name:** ___________________________  **Date:** _______________
+
+Take 5 to 10 minutes. Write short answers. You do not need to solve everything today.
+
+### 1. What am I feeling right now?
+Emotion: ___________________________  
+Strength, 0 to 10: ______
+
+### 2. What happened just before this feeling?
+____________________________________________________________
+
+### 3. Where do I notice this feeling in my body?
+____________________________________________________________
+
+### 4. What thought is making the feeling stronger?
+____________________________________________________________
+
+### 5. What safe action will I take instead of using?
+☐ Take three slow breaths  
+☐ Walk or exercise  
+☐ Write or listen to music  
+☐ Leave the situation  
+☐ Eat, rest, or drink water  
+☐ Other: ___________________________
+
+### 6. Who can support me right now?
+Name: _____________________________  
+I will call or text them at: ___________
+
+**My reminder:**  
+“This feeling is real, but it is not a command. I can choose my behavior.”
+
+After completing the worksheet, rate the feeling again: ______ out of 10. Any change is useful 
+information. If you feel likely to use, move away from substances and contact your support person, 
+counselor, treatment program, or emergency services.
+
+**Source:** Substance Abuse and Mental Health Services Administration, *Matrix Intensive Outpatient 
+Treatment for People With Stimulant Use Disorders*, “Emotional Triggers,” “Thoughts, Emotions, and 
+Behavior,” “Coping With Feelings and Depression,” and “Thought-Stopping Techniques.”

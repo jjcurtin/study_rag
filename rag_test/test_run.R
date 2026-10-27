@@ -64,63 +64,13 @@ creds <- readr::read_csv(
 
 chat <- ellmer::chat_azure_openai(
   endpoint = creds$url,
-  model = "jackie-fyp",
+  model = "gpt-5.6-luna",
   system_prompt = system_prompt,
   credentials = function() creds$key,
   api_args = list(
-    reasoning = list(effort = "low"),
-    text = list(verbosity = "low")
+    reasoning_effort = "none"
   )
 )
-
-chat_test <- ellmer::chat_azure_openai(
-  endpoint = creds$url,
-  model = "jackie-fyp",
-  api_version = "2024-10-21",
-  credentials = function() creds$key
-)
-
-chat_test$chat("Say hello.")
-
-endpoint <- sub("/+$", "", creds$url)
-api_key  <- creds$key[[1]]
-req <- httr2::request(
-  paste0(endpoint, "/openai/v1/responses")
-) |>
-  httr2::req_headers(
-    `api-key` = api_key,
-    `Content-Type` = "application/json"
-  ) |>
-  httr2::req_body_json(
-    list(
-      model = "jackid-fyp",
-      input = "Say hello."
-    )
-  )
-
-resp <- httr2::req_perform(req)
-req_test <- httr2::request(
-  paste0(endpoint, "/openai/v1/responses")
-) |>
-  httr2::req_headers(
-    `api-key` = api_key,
-    `Content-Type` = "application/json"
-  ) |>
-  httr2::req_body_json(
-    list(
-      model = "YOUR_EXACT_DEPLOYMENT_NAME",
-      input = "Say hello."
-    )
-  ) |>
-  httr2::req_error(
-    is_error = function(resp) FALSE
-  )
-
-resp <- httr2::req_perform(req_test)
-
-httr2::resp_status(resp)
-httr2::resp_headers(resp)[["content-type"]]
-httr2::resp_body_string(resp)
 
 #testing retrival
 
@@ -132,3 +82,15 @@ ragnar_register_tool_retrieve(
 
 #test run? 
 chat$chat("Create a short recovery activity for someone experiencing strong cravings to use substances.")
+
+chat$chat("Create a short recovery activity for someone with low motivation for recovery from substance use.")
+
+ragnar_register_tool_retrieve(
+  chat,
+  store,
+  top_k = 15
+)
+
+chat$chat("Create a short recovery activity for someone trying to manage intention emotions without using substances.")
+
+chat$chat("Create a one-page worksheet-style recovery activity for someone trying to manage intense emotions without using substances. The activity should include 4 to 6 brief fill-in prompts. Responses should be short enough to complete directly on a handout.")
