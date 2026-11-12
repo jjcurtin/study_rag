@@ -48,8 +48,4 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
-.Rproj.user
-rag_test/rag_test.Rproj
 rag_test/manual.duckdb
-rag_test/manual.duckdb.wal
-rag_test/.DS_Store
