@@ -48,3 +48,5 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+.DS_Store
+rag_test/.DS_Store
