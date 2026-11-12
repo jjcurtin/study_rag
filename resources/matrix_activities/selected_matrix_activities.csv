@@ -1,18 +1,18 @@
-﻿activity,name,category,meta_category,rank,interactive
-IC 2A,"""recovery checklist""",motivation_recovery,motivation,1,X
-IC 2B,"""relapse analysis chart"" ",motivation_recovery,motivation,2,X
-IC 3A ,"""treatment evaluation""",motivation_treatment,motivation,3,X
-IC 3B,"""continuing treatment plan""",motivation_treatment,motivation,na,
-ERS 6A,"""five common challenges in early recovery""",motivation_psychoeducation,motivation,4,X
-RP 7,"""motivation for recovery""",motivation_recovery,motivation,5,X
-ERS 1A,"""triggers""",craving_general,craving,5,X
-ERS 2A,"""external trigger questionnaire"" ",craving_external,craving,1,X
-ERS 2B,"""external trigger chart""",craving_external,craving,2,X
-ERS 3A,"""internal trigger questionnaire"" ",craving_internal,craving,3,X
-ERS 3B,"""internal trigger chart""",craving_internal,craving,4,X
-ERS 8,"""12-step sayings""",emotion,emotion,6,X
-RP 5,"""guilt and shame"" ",emotion,emotion,1,X
-RP 18,"""emotional triggers""",emotion_trigger,emotion,4,X
-RP 20,"""recognizing stress""",emotion,emotion ,2,X
-RP 22,"""reducing stress""",emotion,emotion,3,X
-RP 23,"""managing anger""",emotion,emotion,5,X
+﻿activity,name,category,meta_category,rank,interactive,
+IC 2A,"""recovery checklist""",motivation_recovery,motivation,1,X,X
+IC 2B,"""relapse analysis chart"" ",motivation_recovery,motivation,2,X,X
+IC 3A ,"""treatment evaluation""",motivation_treatment,motivation,3,X,X
+IC 3B,"""continuing treatment plan""",motivation_treatment,motivation,na,,
+ERS 6A,"""five common challenges in early recovery""",motivation_psychoeducation,motivation,4,X,X
+RP 7,"""motivation for recovery""",motivation_recovery,motivation,5,X,X
+ERS 1A,"""triggers""",craving_general,craving,5,X,X
+ERS 2A,"""external trigger questionnaire"" ",craving_external,craving,1,X,X
+ERS 2B,"""external trigger chart""",craving_external,craving,2,X,X
+ERS 3A,"""internal trigger questionnaire"" ",craving_internal,craving,3,X,X
+ERS 3B,"""internal trigger chart""",craving_internal,craving,4,X,X
+ERS 8,"""12-step sayings""",emotion,emotion,6,X,
+RP 5,"""guilt and shame"" ",emotion,emotion,1,X,X
+RP 18,"""emotional triggers""",emotion_trigger,emotion,4,X,X
+RP 20,"""recognizing stress""",emotion,emotion ,2,X,X
+RP 22,"""reducing stress""",emotion,emotion,3,X,X
+RP 23,"""managing anger""",emotion,emotion,5,X,X

@@ -8,16 +8,17 @@ library(ellmer)
 
 doc <- read_as_markdown("manuals/Matrix Activities.pdf")
 
-cat(as.character(doc))
+#cat(as.character(doc))
 
+#checking ideal target size etc. 
 chunky <- markdown_chunk(
   doc,
   target_size = 1600,
   target_overlap = .2
 )
 
-cat(chunky$text[1])
-ragnar_chunks_view(chunky)
+#cat(chunky$text[1])
+#ragnar_chunks_view(chunky)
 
 #note: remember to rotate sideways pages before extractions
 
@@ -26,12 +27,13 @@ doc <- read_as_markdown("manuals/match02_redact.pdf")
 
 cat(as.character(doc))
 
+#actual pipeline: descriptive object names 
 chunky2 <- markdown_chunk(
   doc,
   target_size = 1600,
   target_overlap = .2
 )
-cat(chunky2$text[1])
+#cat(chunky2$text[1])
 
 # Create store
 store <- ragnar_store_create(
@@ -44,7 +46,7 @@ ragnar_store_insert(store, chunky)
 ragnar_store_insert(store, chunky2)
 
 # Build retrieval index 
-#run everytime documents are added
+#run every time documents are added
 ragnar_store_build_index(store, type = "fts")
 
 
@@ -60,11 +62,16 @@ system_prompt <- stringr::str_squish(
   "
   You are a clinical psychology expert specializing in substance use recovery.
 
-  Before responding, retrieve relevant material from the knowledge store. Provide a citation for every source used. Do not answer unless you have retrieved and cited a source.
+  Before responding, retrieve relevant material from the knowledge store. 
+  Provide a citation for every source used. 
+  Do not answer unless you have retrieved and cited a source.
   
-  You are writing a short therapeutic recovery activity for people with substance use disorder. Ground the activity in the retrieved material and follow the therapeutic approach, concepts, and techniques described in the knowledge store.
+  You are writing a short therapeutic recovery activity for people with substance use disorder. 
+  Ground the activity in the retrieved material and follow the therapeutic approach, 
+  concepts, and techniques described in the knowledge store.
 
-  Adapt the retrieved material into a clear, practical, and engaging activity rather than simply summarizing or reproducing the source material.
+  Adapt the retrieved material into a clear, practical, and engaging activity 
+  rather than simply summarizing or reproducing the source material.
   
   The activity should: 
   - be approximately 1000-2000 characters long;
@@ -75,9 +82,10 @@ system_prompt <- stringr::str_squish(
   - have varied sentence structure and minimize compound sentences;
   - appear to have been written by a human;
   - avoid using em dashes in your responses. Use commas or parentheses instead.
-
   "
 )
+
+#one script that build the rag 
 
 creds <- readr::read_csv(
   "S:/other/credentials_jackie.csv",
