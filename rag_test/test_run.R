@@ -21,18 +21,40 @@ ragnar_chunks_view(chunky)
 
 #note: remember to rotate sideways pages before extractions
 
+#adding in material
+doc <- read_as_markdown("manuals/match02_redact.pdf")
+
+cat(as.character(doc))
+
+chunky2 <- markdown_chunk(
+  doc,
+  target_size = 1600,
+  target_overlap = .2
+)
+cat(chunky2$text[1])
+
 # Create store
 store <- ragnar_store_create(
   "manual.duckdb",
-  embed = NULL,
-  overwrite = TRUE
+  embed = NULL
 )
 
 # Insert document chunks
 ragnar_store_insert(store, chunky)
+ragnar_store_insert(store, chunky2)
 
-# Build retrieval index
-ragnar_store_build_index(store)
+# Build retrieval index 
+#run everytime documents are added
+ragnar_store_build_index(store, type = "fts")
+
+
+#recall store
+store <- ragnar_store_connect(
+  "manual.duckdb",
+  read_only = FALSE
+)
+
+ragnar_store_inspect(store)
 
 system_prompt <- stringr::str_squish(
   "
