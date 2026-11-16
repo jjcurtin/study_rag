@@ -1,0 +1,92 @@
+---
+title: "Rag Generation"
+author: "Jacki Zhang" 
+date: "11/16/2026`"
+format: 
+  html:
+    toc: true 
+    toc_depth: 4
+    embed-resources: true
+editor_options: 
+  chunk_output_type: console
+---
+
+::: callout-note
+Remember to rotate sideways pages before extractions
+:::
+
+# Create Initial Store
+
+```{r}
+store <- ragnar_store_create(
+  "manual.duckdb",
+  embed = NULL
+)
+```
+
+# Once initial store created, read back in for editing.
+
+```{r}
+store <- ragnar_store_connect(
+  "manual.duckdb",
+  read_only = FALSE
+)
+```
+
+# Reading in Documents
+
+## Matrix Activities
+
+```{r}
+matrix_act <- read_as_markdown("manuals/Matrix Activities.pdf")
+
+#View full  
+#cat(as.character(matrix_act))
+
+#Chunking
+matrix_act_c <- markdown_chunk(
+  matrix_act,
+  target_size = 1600,
+  target_overlap = .2
+)
+
+#View
+cat(matrix_act_c$text[1])
+ragnar_chunks_view(matrix_act_c)
+
+#Insert document chunks
+ragnar_store_insert(store, matrix_act_c)
+```
+
+## Project Match 02
+
+```{r}
+match02 <- read_as_markdown("manuals/match02_redact.pdf")
+
+#View full  
+#cat(as.character(match02))
+
+#Chunking
+match02_c <- markdown_chunk(
+  match02,
+  target_size = 1600,
+  target_overlap = .2
+)
+
+#View
+cat(match02_c$text[1])
+ragnar_chunks_view(match02_c)
+
+#Insert document chunks
+ragnar_store_insert(store, match02_c)
+```
+
+# Indexing RAG
+
+Run every time store is updated.
+
+```{r}
+ragnar_store_build_index(store, type = "fts")
+
+ragnar_store_inspect(store)
+```
