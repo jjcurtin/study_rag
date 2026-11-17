@@ -1,0 +1,36 @@
+# RAG Documents
+
+## Open Source
+- Project MATCH Monograph Series 
+  Manuals: Vol 1-3
+  Vol 6: improving compliance with alcoholism treatment 
+  Vol 7: Strategies for facilitating protocol compliance in alcoholism treatment research 
+- Brief Counselling for Marijuana Dependence
+- Counselor’s treatment manual MATRIX
+  Client’s Handbook Matrix - Pretty sure it's the same material as counselor's 
+Coping and social skills training for alcohol and cocaine dependence
+Therapy Manuals for Drug Addiction Manual 1: A Cognitive-Behavioral Approach: Treating Cocaine Addiction
+Combined Behavioral Intervention Manual
+TIP 35: Enhancing Motivation for Change in Substance Use Disorder Treatment
+TIP 65: Counseling Approaches To Promote Recovery From Problematic Substance Use and Related Issues
+
+## Open Source - Might Include
+Relapse Prevention Workbook
+https://monitoring.bactrack.com/cdn/shop/files/Relapse-Prevention-Workbook_9a1acd17-2c57-47bc-bfd9-ad96310a3902.pdf?v=4584823756785114541
+
+## Books
+Alcohol Dependence: A Coping Skills Training Guide. 
+Brief Interventions for Adolescent Alcohol and Substance Abuse
+Harm Reduction 2nd ed 
+Relapse Prevention 2nd ed 
+Mindfulness-Based Relapse Prevention for Addictive Behaviors
+Living in Balance - Hazelden publisher 
+DBT Skills Training 
+Clinical Handbook of Adolescent Addiction
+Brief Interventions for Adolescent Alcohol and Substance Abuse
+Cognitive-Behavioral Therapy of Addictive Disorders
+Substance Abuse Treatment and the Stages of Change 2nd ed 
+Treating Addiction 2nd ed 
+
+## Books - Might Include
+4-Point Program Handbook - SMART recovery
