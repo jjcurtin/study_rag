@@ -1,36 +1,54 @@
 # RAG Documents
 
 ## Open Source
-- Project MATCH Monograph Series 
-  Manuals: Vol 1-3
-  Vol 6: improving compliance with alcoholism treatment 
-  Vol 7: Strategies for facilitating protocol compliance in alcoholism treatment research 
-- Brief Counselling for Marijuana Dependence
-- Counselor’s treatment manual MATRIX
-  Client’s Handbook Matrix - Pretty sure it's the same material as counselor's 
-Coping and social skills training for alcohol and cocaine dependence
-Therapy Manuals for Drug Addiction Manual 1: A Cognitive-Behavioral Approach: Treating Cocaine Addiction
-Combined Behavioral Intervention Manual
-TIP 35: Enhancing Motivation for Change in Substance Use Disorder Treatment
-TIP 65: Counseling Approaches To Promote Recovery From Problematic Substance Use and Related Issues
+
+- [Project MATCH](https://www.niaaa.nih.gov/publications/project-match-monograph-series)
+  - Vol 1-3
+  - Vol 6: improving compliance with alcoholism treatment
+  - Vol 7: Strategies for facilitating protocol compliance in alcoholism treatment research
+- [Brief Counseling for Marijuana Dependence: A Manual for Treating Adults](https://library.samhsa.gov/product/brief-counseling-marijuana-dependence-manual-treating-adults/sma15-4211)
+- [Counselor's Treatment Manual MATRIX](https://library.samhsa.gov/sites/default/files/sma13-4152.pdf)
+  - There's also the Client Manual, but it has the same overlapping materials
+- [Coping and Social Skills Training for Alcohol and Cocaine Dependence](https://www.psych.theclinics.com/article/S0193-953X(05)70086-1/abstract)
+- [Cognitive-Behavioral Approach: Treating Cocaine Addiction; Manual 1](https://www.ojp.gov/ncjrs/virtual-library/abstracts/cognitive-behavioral-approach-treating-cocaine-addiction-manual-1)
+- [Combined Behavioral Intervention Manual](https://www.niaaa.nih.gov/sites/default/files/NIAAA-combined-behavioral-intervention-manual.pdf)
+- [SAMHSA Tip 35:Enhancing Motivation for Change in Substance Use Disorder Treatment](https://library.samhsa.gov/sites/default/files/tip-35-pep19-02-01-003.pdf)
+- [SAMHSA Tip 65:Counseling Approaches To Promote Recovery From Problematic Substance Use and Related Issues](https://www.ncbi.nlm.nih.gov/books/NBK601482/)
 
 ## Open Source - Might Include
-Relapse Prevention Workbook
-https://monitoring.bactrack.com/cdn/shop/files/Relapse-Prevention-Workbook_9a1acd17-2c57-47bc-bfd9-ad96310a3902.pdf?v=4584823756785114541
+
+- [Relapse Prevention Workbook](https://monitoring.bactrack.com/cdn/shop/files/Relapse-Prevention-Workbook_9a1acd17-2c57-47bc-bfd9-ad96310a3902.pdf?v=4584823756785114541)
+  - Debbie Shepard, LSW
+  - Useful for activity structure?
 
 ## Books
-Alcohol Dependence: A Coping Skills Training Guide. 
-Brief Interventions for Adolescent Alcohol and Substance Abuse
-Harm Reduction 2nd ed 
-Relapse Prevention 2nd ed 
-Mindfulness-Based Relapse Prevention for Addictive Behaviors
-Living in Balance - Hazelden publisher 
-DBT Skills Training 
-Clinical Handbook of Adolescent Addiction
-Brief Interventions for Adolescent Alcohol and Substance Abuse
-Cognitive-Behavioral Therapy of Addictive Disorders
-Substance Abuse Treatment and the Stages of Change 2nd ed 
-Treating Addiction 2nd ed 
+
+- [Treating alcohol dependence: A coping skills training guide, 2nd ed.](https://psycnet.apa.org/record/2002-18180-000)
+  - Monti, P. M., Kadden, R. M., Rohsenow, D. J., Cooney, N. L., & Abrams, D. B. (2002).
+  - Guilford Press, but hard to find now.
+- [Brief Intervention for Adolescent Alcohol and Substance Abuse](https://www.guilford.com/books/Brief-Interventions-for-Adolescent-Alcohol-and-Substance-Abuse/Monti-Colby-Tevyaw/9781462535002)
+  - Edited by Peter M. Monti, Suzanne M. Colby, and Tracy O'Leary Tevyaw
+- [Harm Reduction, 2nd Edition](https://www.guilford.com/books/Harm-Reduction/Marlatt-Larimer-Witkiewitz/9781462502561)
+  - Edited by G. Alan Marlatt, Mary E. Larimer, and Katie Witkiewitz
+- [Relapse Prevention, 2nd Edition](https://www.guilford.com/books/Relapse-Prevention/Marlatt-Donovan/9781593856410)
+  - Edited by G. Alan Marlatt and Dennis M. Donovan
+- [Contingency Management in Substance Abuse Treatment](https://www.guilford.com/books/Contingency-Management-in-Substance-Abuse-Treatment/Higgins-Silverman-Heil/9781593855710)
+  - Edited by Stephen T. Higgins, Kenneth Silverman, and Sarah H. Heil
+- [Psychological Theories of Drinking and Alcoholism](https://www.guilford.com/books/Psychological-Theories-of-Drinking-and-Alcoholism/Leonard-Blane/9781572304109)
+  - Edited by Kenneth E. Leonard and Howard Thomas Blane
+- [Treating Alcohol and Drug Problems in Psychotherapy Practice, 2nd Edition](https://www.guilford.com/books/Treating-Alcohol-and-Drug-Problems-in-Psychotherapy-Practice/Washton-Zweben/9781462550869)
+  - Arnold M. Washton and Joan E. Zweben
+- [Mindfulness-Based Relapse Prevention for Addictive Behaviors](https://www.guilford.com/books/Mindfulness-Based-Relapse-Prevention-for-Addictive-Behaviors/Bowen-Chawla-Grow-Marlatt/9781462545315)
+  - Sarah Bowen, Neha Chawla, Joel Grow, and G. Alan Marlatt
+- [DBT Skills Training Manual](https://www.guilford.com/books/DBT-Skills-Training-Manual/Marsha-Linehan/9781462556359)
+  - Marsha M. Linehan
+- [Clinical Handbook of Adolescent Addiction](https://onlinelibrary.wiley.com/doi/book/10.1002/9781118340851)
+  - Editor(s):Richard Rosner
+- [Cognitive-Behavioral Therapy of Addictive Disorders](https://www.guilford.com/books/Cognitive-Behavioral-Therapy-of-Addictive-Disorders/Liese-Beck/9781462548842)
+  - Bruce S. Liese and Aaron T. Beck
+- [Substance Abuse Treatment and the Stages of Change, 2nd Edition](https://www.guilford.com/books/Substance-Abuse-Treatment-and-the-Stages-of-Change/Connors-DiClemente-Velasquez-Donovan/9781462524983)
+  - Gerard J. Connors, Carlo C. DiClemente, Mary Marden Velasquez, and Dennis M. Donovan
+- [Treating Addiction, 2nd Edition](https://www.guilford.com/books/Treating-Addiction/Miller-Forcehimes-Zweben/9781462540440)
+  - William R. Miller, Alyssa A. Forcehimes, and Allen Zweben
 
 ## Books - Might Include
-4-Point Program Handbook - SMART recovery
