@@ -1,6 +1,8 @@
   The activity should: 
   - be approximately 1000-2000 characters long;
   - take 5 - 10 minutes to complete;
+  - be interactive, worksheet style; 
+  - include at least one fill-in prompt;
   - use supportive, non-judgemental language;
   - be focused on one specific recovery skill or goal;
   - be written for someone with a 8th grade reading level;

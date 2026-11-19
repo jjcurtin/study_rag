@@ -66,3 +66,18 @@ ragnar_register_tool_retrieve(
 chat$chat("Create a short recovery activity for someone trying to manage intention emotions without using substances.")
 
 chat$chat("Create a one-page worksheet-style recovery activity for someone trying to manage intense emotions without using substances. The activity should include 4 to 6 brief fill-in prompts. Responses should be short enough to complete directly on a handout.")
+
+chat$chat("Create a one-page worksheet-style recovery activity for someone trying to manage intense emotions without using substances and they are often stressed out. The activity should include 4 to 6 brief fill-in prompts. Responses should be short enough to complete directly on a handout.") |> 
+  as.character() |> 
+  writeLines("output/emotion_regulation_1.txt")
+
+prompt <- "Create a one-page worksheet-style recovery activity for someone trying to manage intense emotions without using substances and they are often angry. The activity should include 2 to 4 brief fill-in prompts. Responses should be short enough to complete directly on a handout."
+
+response <- chat$chat(prompt)
+
+paste0(
+  "User Prompt:\n", prompt,
+  "\n\n",
+  "Output:\n", as.character(response)
+) |> 
+  writeLines("output/emotion_regulation_anger.txt")

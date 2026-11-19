@@ -44,7 +44,7 @@ store <- ragnar_store_connect(
 ## Matrix Activities
 
 ```{r}
-matrix_act <- read_as_markdown("manuals/Matrix Activities.pdf")
+matrix_act <- read_as_markdown("manuals/matrix_redact.pdf")
 
 #View full  
 #cat(as.character(matrix_act))
@@ -62,6 +62,29 @@ ragnar_chunks_view(matrix_act_c)
 
 #Insert document chunks
 ragnar_store_insert(store, matrix_act_c)
+```
+
+## Project Match 01
+
+```{r}
+match01 <- read_as_markdown("manuals/match01_redact.pdf")
+
+#View full  
+#cat(as.character(match01))
+
+#Chunking
+match01_c <- markdown_chunk(
+  match01,
+  target_size = 1600,
+  target_overlap = .2
+)
+
+#View
+cat(match01_c$text[1])
+ragnar_chunks_view(match01_c)
+
+#Insert document chunks
+ragnar_store_insert(store, match01_c)
 ```
 
 ## Project Match 02
@@ -85,6 +108,29 @@ ragnar_chunks_view(match02_c)
 
 #Insert document chunks
 ragnar_store_insert(store, match02_c)
+```
+
+## Brief Counselling
+
+```{r}
+bcmd <- read_as_markdown("manuals/bcmd_redact.pdf")
+
+#View full  
+#cat(as.character(tip_35))
+
+#Chunking
+bcmd_c <- markdown_chunk(
+  bcmd,
+  target_size = 1600,
+  target_overlap = .2
+)
+
+#View
+cat(bcmd_c$text[1])
+ragnar_chunks_view(bcmd_c)
+
+#Insert document chunks
+ragnar_store_insert(store, bcmd_c)
 ```
 
 # Indexing RAG
