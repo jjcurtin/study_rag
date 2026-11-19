@@ -11,6 +11,12 @@ editor_options:
   chunk_output_type: console
 ---
 
+```{r}
+library(tidyverse)
+library(ragnar)
+```
+
+
 ::: callout-note
 Remember to rotate sideways pages before extractions
 :::
