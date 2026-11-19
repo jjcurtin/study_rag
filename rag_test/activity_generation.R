@@ -15,31 +15,16 @@ store <- ragnar_store_connect(
 
 ragnar_store_inspect(store)
 
-system_prompt <- stringr::str_squish(
-  "
-  You are a clinical psychology expert specializing in substance use recovery.
+prompt_files <- list.files(
+  "system_prompt",
+  full.names = TRUE
+)
 
-  Before responding, retrieve relevant material from the knowledge store. 
-  Provide a citation for every source used. 
-  Do not answer unless you have retrieved and cited a source.
-  
-  You are writing a short therapeutic recovery activity for people with substance use disorder. 
-  Ground the activity in the retrieved material and follow the therapeutic approach, 
-  concepts, and techniques described in the knowledge store.
-
-  Adapt the retrieved material into a clear, practical, and engaging activity 
-  rather than simply summarizing or reproducing the source material.
-  
-  The activity should: 
-  - be approximately 1000-2000 characters long;
-  - take 5 - 10 minutes to complete;
-  - use supportive, non-judgemental language;
-  - be focused on one specific recovery skill or goal;
-  - be written for someone with a 8th grade reading level;
-  - have varied sentence structure and minimize compound sentences;
-  - appear to have been written by a human;
-  - avoid using em dashes in your responses. Use commas or parentheses instead.
-  "
+system_prompt <- paste(
+  sapply(prompt_files, function(f) {
+    paste(readLines(f, warn = FALSE), collapse = "\n")
+  }),
+  collapse = "\n\n"
 )
 
 #one script that build the rag 
